@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Red Hat Display", sans-serif;
+}
+.top{
+    background: #1A2231;
+    padding: 7px 0 ;
+    font-size: 14px;
+}
+.con{
+    width: 1290px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top a{
+    color: #ffff;
+}
+.top ul{
+    display: flex;
+    gap: 18px;
+}
+header{
+    padding: 25px 0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn{
+    border: 1px solid #DC363C;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn:hover{
+    background: #DC363C;
+    color: white;
+}
+.gap{
+    gap: 30px;
+}
+nav{
+    flex-grow: 1;
+    margin-left: 50px ;
+}
+.login span{
+    color: #939393;
+}
+.login:hover i{
+    color: #DC363C;
+}
+.banner img{
+    width: 100%;
+}
